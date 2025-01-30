@@ -1,5 +1,5 @@
 import React from 'react';
-import MyCustomLogoFull from './logo/kcd-logo-color-small.svg';
+import MyCustomLogoFull from './logo/FHCN.png';
 
 const LogoFull = () => {
   return <img src={MyCustomLogoFull} />;

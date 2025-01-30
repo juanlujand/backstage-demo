@@ -14,7 +14,7 @@ export function TimelineTwitter() {
     <Timeline
       dataSource={{
         sourceType: 'profile',
-        screenName: 'KCDLimaPeru',
+        screenName: 'CloudNativeFdn',
       }}
       options={{
         height: '1000',

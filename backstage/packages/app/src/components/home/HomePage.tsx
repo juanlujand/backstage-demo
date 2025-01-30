@@ -69,8 +69,8 @@ export const HomePage = () => {
       timeZone: 'America/Santiago',
     },
     {
-      label: 'LIMA',
-      timeZone: 'America/Lima',
+      label: 'BOGOTA',
+      timeZone: 'America/Bogota',
     },
   ];
 

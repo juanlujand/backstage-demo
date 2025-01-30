@@ -69,15 +69,15 @@ proxy:
       changeOrigin: true
       credentials: dangerously-allow-unauthenticated
       pathRewrite:
-        '^/api/proxy/quickaccess': '/fmenesesg/kcd-lima-demo-data/main/quickaccessdata.json'
+        '^/api/proxy/quickaccess': '/fmenesesg/backstage-demo-data/main/quickaccessdata.json'
     '/techradars':
       target: https://raw.githubusercontent.com
       secure: true
       allowedMethods: ['GET']
       credentials: dangerously-allow-unauthenticated
       pathRewrite:
-        '^/api/proxy/techradars/data-development.json': '/fmenesesg/kcd-lima-demo-data/main/data-development.json'
-        '^/api/proxy/techradars/data-paas.json': '/fmenesesg/kcd-lima-demo-data/main/data-paas.json'
+        '^/api/proxy/techradars/data-development.json': '/fmenesesg/backstage-demo-data/main/data-development.json'
+        '^/api/proxy/techradars/data-paas.json': '/fmenesesg/backstage-demo-data/main/data-paas.json'
 
   ### Example for how to add a proxy endpoint for the frontend.
   ### A typical reason to do this is to handle HTTPS and CORS for internal services.
